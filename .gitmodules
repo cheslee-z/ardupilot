@@ -34,3 +34,6 @@
 [submodule "modules/DroneCAN/libcanard"]
 	path = modules/DroneCAN/libcanard
 	url = https://github.com/DroneCAN/libcanard
+[submodule "modules/ardupilot_gazebo"]
+	path = modules/ardupilot_gazebo
+	url = https://github.com/cheslee-z/ardupilot_gazebo.git
