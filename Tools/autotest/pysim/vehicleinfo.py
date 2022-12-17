@@ -328,6 +328,11 @@ class VehicleInfo(object):
                 "default_params_filename": "default_params/gazebo_quadplane.parm",
                 "external": True,
             },
+            "gazebo-tiltrotor": {
+                "waf_target": "bin/arduplane",
+                "default_params_filename": "default_params/gazebo_tiltrotor.parm",
+                "external": True,
+            },
         },
     },
     "Rover": {
