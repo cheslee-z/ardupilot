@@ -937,9 +937,10 @@ parser.add_option("-v", "--vehicle",
                   default=None,
                   help="vehicle type (%s)" % vehicle_options_string,
                   choices=vehicle_choices)
-parser.add_option("-f", "--frame", type='string', default=None, help="""set vehicle frame type
-
-%s""" % (generate_frame_help()))
+parser.add_option("-f", "--frame", 
+                  type='string', 
+                  default=None, 
+                  help="""set vehicle frame type %s""" % (generate_frame_help()))
 
 parser.add_option("--vehicle-binary",
                   default=None,
